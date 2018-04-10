@@ -11,4 +11,4 @@ spring:
   jpa:
     show-sql: true # 显示sql 语句
     hibernate:
-      ddl-auto: update
+      ddl-auto: none
