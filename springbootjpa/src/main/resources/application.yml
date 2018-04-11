@@ -11,4 +11,7 @@ spring:
   jpa:
     show-sql: true # 显示sql 语句
     hibernate:
-      ddl-auto: none
+      ddl-auto: update
+logging:
+  level:
+    org.springframework.data: debug
