@@ -61,21 +61,21 @@ public class ApplicationTests {
 
     @Test
     public void findByName() {
-        for (Movie movie : movieService.findByName("")) {
+        for (Movie movie : movieService.findByName(null)) {
             System.out.println(movie);
         }
     }
 
     @Test
     public void findName() {
-        for (Movie movie : movieService.findName("xixi")) {
+        for (Movie movie : movieService.findName("")) {
             System.out.println(movie);
         }
     }
 
     @Test
     public void findByNameLike() {
-        for (Movie movie : movieService.findByNameLike("%xi%")) {
+        for (Movie movie : movieService.findByNameLike(null)) {
             System.out.println(movie);
         }
     }

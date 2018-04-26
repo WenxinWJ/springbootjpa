@@ -11,6 +11,13 @@
     <name>springbootjpa</name>
     <description>Demo project for Spring Boot</description>
 
+    <developers>
+        <developer>
+            <name>WenXin</name>
+            <email>805671597@qq.com</email>
+        </developer>
+    </developers>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>

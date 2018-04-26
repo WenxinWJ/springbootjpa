@@ -41,20 +41,20 @@ public class Product implements java.io.Serializable {
     public Product() {
     }
 
-    public Integer getId() {
-        return this.id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
     public Category getCategory() {
         return this.category;
     }
 
     public void setCategory(Category category) {
         this.category = category;
+    }
+
+    public Integer getId() {
+        return this.id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getName() {

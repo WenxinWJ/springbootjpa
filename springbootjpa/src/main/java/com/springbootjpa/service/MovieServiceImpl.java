@@ -18,8 +18,8 @@ import java.util.Optional;
 @Service
 @Transactional
 public class MovieServiceImpl implements MovieService {
-    @Resource(name = "movieRepository")
 
+    @Resource(name = "movieRepository")
     private MovieRepository movieRepository;
 
     @Override   // 增 / 改   指定id 则是 修改

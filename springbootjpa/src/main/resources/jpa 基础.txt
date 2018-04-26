@@ -1,6 +1,4 @@
 
-@Copyright by SONG
-
 前期工作:
 1.Create New Project - New Modules - Spring Init
 2.配置 Database
@@ -100,7 +98,8 @@ UserJpaRepository接口实现了JpaRepository接口；
 	CrudRepository接口定义了增删改查方法；
 	PagingAndSortingRepository接口用于分页和排序；
 	由于JpaRepository接口继承了以上所有接口，所以拥有它们声明的所有方法；
-	另外注意下，以findAll方法为例，JpaRepository接口返回的是List, PagingAndSortingRepository和CrudRepository返回的是迭代器；
+	另外注意下，以findAll方法为例，JpaRepository接口返回的是List,
+	    PagingAndSortingRepository和CrudRepository返回的是迭代器；
 
 public interface UserRepository extends Repository<User, Long>
 {

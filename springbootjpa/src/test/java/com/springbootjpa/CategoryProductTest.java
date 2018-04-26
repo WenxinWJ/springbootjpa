@@ -33,8 +33,10 @@ public class CategoryProductTest {
   // step 2:
   @Test
   public void saveProduct() {
+
     Category category = categoryService.findById(7).get();
     Product product = new Product();
+
     product.setName("美的空调");
     product.setPrice(5200d);
     product.setDescription("省电");
